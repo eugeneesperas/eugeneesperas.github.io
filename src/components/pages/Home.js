@@ -34,13 +34,13 @@ function Home() {
               />
             </div>
             <div className="col-md HomeTxt">
-              <h3>
+              <p>
                 Exploring Rizal Park offers a glimpse into Philippine history, a
                 chance to appreciate its natural beauty, and an opportunity to
                 immerse yourself in the vibrant culture of the country. Enjoy
                 your visit to Rizal Park and have a wonderful time exploring the
                 Philippines!
-              </h3>
+              </p>
             </div>
           </div>
           <h1> </h1>
@@ -57,7 +57,7 @@ function Home() {
           <div className="row">
             <div className="col Hometxt1">
               <h1> </h1>
-              <h3>
+              <p>
                 Philippine Arena, a remarkable architectural and entertainment
                 marvel in the Philippines The Philippine Arena stands as a
                 testament to the country's passion for sports, entertainment,
@@ -70,7 +70,7 @@ function Home() {
                 as the sarimanok a mythical bird and the bahay kubo traditional
                 Filipino house. The facade features intricate patterns and
                 textures, creating a visually stunning exterior.
-              </h3>
+              </p>
             </div>
           </div>
           <h1> </h1>
@@ -78,13 +78,13 @@ function Home() {
           <h2 className="rrr">El Nido</h2>
           <div className="row">
             <div className="col-md second  HomeTxt">
-              <h3>
+              <p>
                 El Nido is a destination that offers a perfect blend of natural
                 beauty, adventure, and relaxation. Whether you're seeking
                 outdoor adventures, underwater exploration, or simply a peaceful
                 escape in paradise, El Nido will surely captivate your heart and
                 leave you with unforgettable memories.
-              </h3>
+              </p>
             </div>
             <div className="col-md">
               <img
@@ -95,10 +95,13 @@ function Home() {
             <h1> </h1>
             <hr />
             <div className="row">
-              <h1>
-                Go to <Link to="/Destination">Destination</Link> page to explore
-                more exciting places!
-              </h1>
+              <h3 className="d-flex justify-content-center">
+                Go to{" "}
+                <Link to="/Destination" className="mx-3">
+                  Destination{" "}
+                </Link>{" "}
+                page to explore more exciting places!
+              </h3>
             </div>
           </div>
         </div>

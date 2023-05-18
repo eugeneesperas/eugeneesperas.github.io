@@ -1,160 +1,158 @@
 import React from "react";
-import { Card, CardGroup, Row, Col } from "react-bootstrap";
+import { Card, CardGroup, Row, Col, Carousel } from "react-bootstrap";
 import "./City.css";
 
 function Bantayan() {
   return (
     <>
-      <div className="h1-EventsContainer">
-        <h1>Bantayan's Famous Destinations</h1>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
+      <div className="CityMainContainer">
+        <h1 className="title">Bantayan Island</h1>
+        <div className="container-md">
+          <Row>
             <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Bantayan</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+              <Card.Img
+                className="CityImg img-fluid"
+                src="/images/bantayan.jpg"
+                alt="Bantayan Island Image"
+              />
             </Col>
           </Row>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Bantayan</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+        <p></p>
+        <div className="container-md">
+          <h2 className="subtitle">Why Bantayan Island</h2>
+          <Row>
+            <Col md={6}>
+              <p className="descriptions">
+                <span className="desctitle">Idyllic Beaches:</span> Bantayan
+                Island boasts some of the most pristine and idyllic beaches in
+                the Philippines. With powdery white sands, crystal-clear
+                turquoise waters, and swaying palm trees, it's a tropical
+                paradise for beach lovers and sun-seekers. Relax on the shores,
+                indulge in water sports, or simply soak up the beauty of the
+                coastal scenery.
+              </p>
+
+              <p className="descriptions">
+                <span className="desctitle">Island Hopping:</span> Explore the
+                surrounding islands and islets through island hopping tours.
+                Visit Virgin Island, Hilantagaan Island, and other nearby gems.
+                Marvel at their untouched beauty, go snorkeling or diving to
+                discover vibrant coral reefs, and enjoy the serenity of these
+                secluded tropical hideaways.
+              </p>
+
+              <p className="descriptions">
+                <span className="desctitle">Rich Marine Life:</span> Bantayan
+                Island is a haven for marine biodiversity. Snorkel or dive in
+                its waters to encounter a diverse array of marine life,
+                including colorful coral gardens, tropical fish, sea turtles,
+                and even whale sharks during certain seasons. It's a paradise
+                for underwater enthusiasts and nature lovers.
+              </p>
             </Col>
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
+            <Col md={6} className="d-flex justify-content-end">
+              <img
+                src="/images/bantayan-beach.jpg"
+                className="img-fluid"
+                alt="Bantayan Island Beach"
+              />
+            </Col>
+          </Row>
+          <p></p>
+        </div>
+        <h1 className="title">Local Delights and Culture</h1>
+        <div className="container-md">
+          <Row>
+            <Col md={6}>
+              <img
+                src="/images/bantayan-cuisine.jpg"
+                className="img-fluid"
+                alt="Bantayan Island Cuisine"
+              />
+            </Col>
+            <Col md={6}>
+              <p>
+                Bantayan Island not only offers natural beauty but also
+                tantalizes taste buds with its local delights. Indulge in fresh
+                seafood delicacies, especially the famous Bantayan "sutukil"
+                (grilled, boiled, and raw seafood) experience. The island's
+                cuisine reflects its coastal charm, with flavors that will leave
+                you craving for more. Immerse yourself in the local culture by
+                joining traditional festivities, witnessing cultural dances, and
+                interacting with the friendly locals.
+              </p>
+              <Row>
+                <Col md={6}>
+                  <p>
+                    The warm hospitality and welcoming nature of the Bantayan
+                    locals add to the overall charm of the island. Experience
+                    their genuine warmth and friendliness as they share their
+                    island's treasures and stories with you. Engage in
+                    conversations, learn about their traditions, and create
+                    unforgettable memories with the locals.
+                  </p>
+                </Col>
+                <Col md={6}>
+                  <img
+                    src="/images/bantayan-culture.jpg"
+                    className="img-fluid"
+                    alt="Bantayan Island Culture"
                   />
-                </Card>
-              </CardGroup>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
+        <div className="container-md">
+          <h1 className="title">Stunning Coastal Views</h1>
+          <Row className="d-flex justify-content-center align-item-center m-auto">
+            <Col md={6}>
+              <img
+                className="img-fluid"
+                src="/images/bantayan-carousel-1.jpg"
+                alt="Bantayan Island Carousel 1"
+              />
             </Col>
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Bantayan</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+            <Col md={6}>
+              <p>
+                Bantayan Island offers breathtaking coastal views that will
+                leave you in awe. Marvel at the vibrant sunsets painting the sky
+                with hues of orange and pink. Take a stroll along the beach,
+                feel the gentle breeze, and listen to the soothing sound of the
+                waves. The captivating beauty of the coastline will make your
+                visit to Bantayan Island truly memorable.
+              </p>
             </Col>
           </Row>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Bantayan</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-          </Row>
+        <div className="container-md">
+          <h1 className="title">Experience Paradise</h1>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/bantayan-carousel-2.jpg"
+                alt="Bantayan Island Carousel 2"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/bantayan-carousel-3.jpg"
+                alt="Bantayan Island Carousel 3"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/bantayan-carousel-4.jpg"
+                alt="Bantayan Island Carousel 4"
+              />
+            </Carousel.Item>
+          </Carousel>
         </div>
+        <p></p>
       </div>
     </>
   );

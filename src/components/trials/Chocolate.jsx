@@ -1,160 +1,153 @@
 import React from "react";
-import { Card, CardGroup, Row, Col } from "react-bootstrap";
+import { Card, CardGroup, Row, Col, Carousel } from "react-bootstrap";
 import "./City.css";
 
 function Chocolate() {
   return (
     <>
-      <div className="h1-EventsContainer">
-        <h1>Chocolate's Famous Destinations</h1>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
+      <div className="CityMainContainer">
+        <h1 className="title">Chocolate Hills</h1>
+        <div className="container-md">
+          <Row>
             <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Chocolate</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+              <Card.Img
+                className="CityImg img-fluid"
+                src="/images/chocolate-hills.jpg"
+                alt="Chocolate Hills Image"
+              />
             </Col>
           </Row>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Chocolate</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+        <p></p>
+        <div className="container-md">
+          <h2 className="subtitle">Discover the Chocolate Hills</h2>
+          <Row>
+            <Col md={6}>
+              <p className="descriptions">
+                The Chocolate Hills is a natural wonder located in Bohol,
+                Philippines. It is made up of more than 1,000 perfectly
+                cone-shaped hills scattered across the landscape. During the dry
+                season, the hills turn brown, resembling giant chocolate kisses,
+                hence the name "Chocolate Hills."
+              </p>
+
+              <p className="descriptions">
+                <span className="desctitle">Unique Geological Formation:</span>{" "}
+                The Chocolate Hills are a unique geological formation that has
+                puzzled scientists for years. These limestone hills were formed
+                millions of years ago through the uplift of coral deposits and
+                the action of erosion. The result is a breathtaking landscape
+                that captivates visitors from around the world.
+              </p>
+
+              <p className="descriptions">
+                <span className="desctitle">Panoramic Views:</span> The best way
+                to experience the Chocolate Hills is by climbing one of the
+                viewing decks or hills. From the top, you can enjoy panoramic
+                views of the surrounding countryside and witness the mesmerizing
+                sight of the rolling hills stretching as far as the eye can see.
+                It's a sight that will leave you in awe of nature's beauty.
+              </p>
             </Col>
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
+            <Col md={6} className="d-flex justify-content-end">
+              <img
+                src="/images/chocolate-hills-panorama.jpg"
+                className="img-fluid"
+                alt="Chocolate Hills Panorama"
+              />
+            </Col>
+          </Row>
+          <p></p>
+        </div>
+        <h1 className="title">Explore the Chocolate Hills</h1>
+        <div className="container-md">
+          <Row>
+            <Col md={6}>
+              <img
+                src="/images/chocolate-hills-view.jpg"
+                className="img-fluid"
+                alt="Chocolate Hills View"
+              />
+            </Col>
+            <Col md={6}>
+              <p>
+                Aside from admiring the beauty of the Chocolate Hills, there are
+                several activities you can enjoy in the area. Take a leisurely
+                hike or rent an ATV to explore the hills up close. You can also
+                visit nearby attractions such as the Tarsier Conservation Area,
+                where you can spot the world's smallest primate, the Philippine
+                tarsier.
+              </p>
+              <Row>
+                <Col md={6}>
+                  <p>
+                    To learn more about the Chocolate Hills, visit the Chocolate
+                    Hills Complex, which features an interactive museum
+                    showcasing the geological and cultural significance of the
+                    hills. You can also enjoy zip-lining, horseback riding, and
+                    other adventure activities in the surrounding area.
+                  </p>
+                </Col>
+                <Col md={6}>
+                  <img
+                    src="/images/chocolate-hills-museum.jpg"
+                    className="img-fluid"
+                    alt="Chocolate                   Hills Museum"
                   />
-                </Card>
-              </CardGroup>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
+        <div className="container-md">
+          <h1 className="title">Experience the Wonder</h1>
+          <Row className="d-flex justify-content-center align-item-center m-auto">
+            <Col md={6}>
+              <img
+                className="img-fluid"
+                src="/images/chocolate-hills-carousel-1.jpg"
+                alt="Chocolate Hills Carousel 1"
+              />
             </Col>
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Chocolate</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+            <Col md={6}>
+              <p>
+                To fully experience the wonder of the Chocolate Hills, consider
+                visiting during sunrise or sunset when the hills are bathed in
+                golden light. The changing colors create a magical atmosphere
+                that enhances the beauty of this natural phenomenon. Don't
+                forget to capture these moments and create lasting memories of
+                your visit to the Chocolate Hills.
+              </p>
             </Col>
           </Row>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Chocolate</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-          </Row>
+        <div className="container-md">
+          <h1 className="title">Marvel at Nature's Masterpiece</h1>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/chocolate-hills-carousel-2.jpg"
+                alt="Chocolate Hills Carousel 2"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/chocolate-hills-carousel-3.jpg"
+                alt="Chocolate Hills Carousel 3"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/chocolate-hills-carousel-4.jpg"
+                alt="Chocolate Hills Carousel 4"
+              />
+            </Carousel.Item>
+          </Carousel>
         </div>
+        <p></p>
       </div>
     </>
   );

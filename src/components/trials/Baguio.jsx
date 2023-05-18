@@ -12,7 +12,7 @@ function Baguio() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/1.jpg"
+                src="/cities/baguio/1.jpg"
                 alt="Image 1"
               />
             </Col>
@@ -52,9 +52,9 @@ function Baguio() {
                 attracting a large number of visitors.
               </p>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/travelinspiration/camiguin.png"
+                src="/cities/baguio/2.jpg"
                 className="img-fluid"
                 alt="Image 2"
               />
@@ -67,7 +67,7 @@ function Baguio() {
           <Row>
             <Col md={6}>
               <img
-                src="/travelinspiration/camiguin.png"
+                src="/cities/baguio/3.jpg"
                 className="img-fluid"
                 alt="Image 3"
               />
@@ -97,7 +97,7 @@ function Baguio() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/travelinspiration/camiguin.png"
+                    src="/cities/baguio/4.jpg"
                     className="img-fluid"
                     alt="Image 4"
                   />
@@ -112,7 +112,7 @@ function Baguio() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/travelinspiration/camiguin.png"
+                src="/cities/baguio/5.jpg"
                 alt="Carousel Image 1"
               />
             </Col>
@@ -140,21 +140,21 @@ function Baguio() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/travelinspiration/camiguin.png"
+                src="/cities/baguio/1.jpg"
                 alt="Carousel Image 1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/7.jpg"
+                src="/cities/baguio/2.jpg"
                 alt="Carousel Image 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/travelinspiration/camiguin.png"
+                src="/cities/baguio/3.jpg"
                 alt="Carousel Image 3"
               />
             </Carousel.Item>

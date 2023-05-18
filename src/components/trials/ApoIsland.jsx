@@ -1,160 +1,135 @@
 import React from "react";
-import { Card, CardGroup, Row, Col } from "react-bootstrap";
+import { Card, CardGroup, Row, Col, Carousel } from "react-bootstrap";
 import "./City.css";
 
 function ApoIsland() {
   return (
     <>
-      <div className="h1-EventsContainer">
-        <h1>ApoIsland's Famous Destinations</h1>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
+      <div className="CityMainContainer">
+        <h1 className="title">Apo Island</h1>
+        <div className="container-md">
+          <Row>
             <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">ApoIsland</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+              <Card.Img
+                className="CityImg img-fluid"
+                src="/images/apo-island.jpg"
+                alt="Apo Island Image"
+              />
             </Col>
           </Row>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">ApoIsland</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+        <p></p>
+        <div className="container-md">
+          <h2 className="subtitle">Why Apo Island</h2>
+          <Row>
+            <Col md={6}>
+              <p className="descriptions">
+                <span className="desctitle">Marine sanctuary:</span> Apo Island
+                is renowned for its pristine marine ecosystem and vibrant coral
+                reefs. It is a protected marine sanctuary, home to diverse
+                marine species and teeming with marine life. Snorkelers and
+                divers can explore the rich underwater world, encountering
+                colorful fish, sea turtles, and other fascinating marine
+                creatures.
+              </p>
+
+              <p className="descriptions">
+                <span className="desctitle">World-class diving:</span> With its
+                clear waters and diverse dive sites, Apo Island is a paradise
+                for diving enthusiasts. The island offers a variety of dive
+                spots suitable for both beginners and experienced divers. You
+                can explore stunning coral gardens, encounter schools of fish,
+                and even dive with sea turtles, making it a must-visit
+                destination for scuba diving enthusiasts.
+              </p>
+
+              <p className="descriptions">
+                <span className="desctitle">Breathtaking landscapes:</span>{" "}
+                Apart from its underwater beauty, Apo Island also boasts
+                breathtaking landscapes. The island is characterized by lush
+                green hills, pristine white sand beaches, and crystal-clear
+                waters. Visitors can relax on the beach, hike to viewpoints for
+                panoramic views, or simply soak in the natural beauty of the
+                surroundings.
+              </p>
             </Col>
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
+            <Col md={6} className="d-flex justify-content-end">
+              <img
+                src="/images/apo-island-beach.jpg"
+                className="img-fluid"
+                alt="Apo Island Beach"
+              />
+            </Col>
+          </Row>
+          <p></p>
+        </div>
+        <h1 className="title">Local Culture and Activities</h1>
+        <div className="container-md">
+          <Row>
+            <Col md={6}>
+              <img
+                src="/images/apo-island-activities.jpg"
+                className="img-fluid"
+                alt="Apo Island Activities"
+              />
+            </Col>
+            <Col md={6}>
+              <p>
+                Apo Island not only offers natural beauty but also provides
+                opportunities to immerse in the local culture and engage in
+                various activities. You can interact with the friendly local
+                community, learn about their traditions, and experience their
+                way of life. The island is known for its warm hospitality and
+                welcoming atmosphere.
+              </p>
+              <Row>
+                <Col md={6}>
+                  <p>
+                    Snorkeling and diving are the highlights of Apo Island. Join
+                    guided tours or rent equipment to explore the vibrant
+                    underwater world. The island's protected marine sanctuary
+                    ensures that you can witness the beauty of the coral reefs
+                    and marine biodiversity up close.
+                  </p>
+                </Col>
+                <Col md={6}>
+                  <img
+                    src="/images/apo-island-snorkeling.jpg"
+                    className="img-fluid"
+                    alt="Apo Island Snorkeling"
                   />
-                </Card>
-              </CardGroup>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">ApoIsland</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-          </Row>
+        <div className="container-md">
+          <h1 className="title">Experience Tranquility in Apo Island</h1>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/apo-island-carousel-1.jpg"
+                alt="Apo Island Carousel 1"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/apo-island-carousel-2.jpg"
+                alt="Apo Island Carousel 2"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 img-fluid"
+                src="/images/apo-island-carousel-3.jpg"
+                alt="Apo Island Carousel 3"
+              />
+            </Carousel.Item>
+          </Carousel>
         </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">ApoIsland</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-          </Row>
-        </div>
+        <p></p>
       </div>
     </>
   );

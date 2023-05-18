@@ -166,3 +166,9 @@
     transition: 250ms;
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .nav-links {
+    font-size: 0.8em;
+  }
+}

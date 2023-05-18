@@ -19,10 +19,10 @@ function Destination() {
       <div className="container-md">
         <MySearchBar />
       </div>
-      <div className="container-md">
+      <div className="container-md cardsix">
         <MyCards />
       </div>
-      <div className="container-md">
+      <div className="container-md cards">
         <Cards />
       </div>
     </>

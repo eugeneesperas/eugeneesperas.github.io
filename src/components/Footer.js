@@ -24,11 +24,6 @@ function Footer() {
             </Link>
           </div>
           <div className="footer-link-items">
-            <Link to="/TravelInfo">
-              <h3>Travel Info</h3>
-            </Link>
-          </div>
-          <div className="footer-link-items">
             <Link to="/Map">
               <h3>Map</h3>
             </Link>

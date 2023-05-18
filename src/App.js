@@ -7,7 +7,6 @@ import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Destination from "./components/pages/Destination";
 import TravelIsnpiration from "./components/pages/TravelIsnpiration";
-import TravelInfo from "./components/pages/TravelInfo";
 import News from "./components/pages/News";
 import Events from "./components/pages/Events";
 import Map from "./components/pages/Map";
@@ -37,6 +36,7 @@ import Siargao from "./components/trials/Siargao";
 import Camiguin from "./components/trials/Camiguin";
 import Enchanted from "./components/trials/Enchanted";
 import Tinuy from "./components/trials/Tinuy";
+import Mayon from "./components/trials/Mayon";
 import MountApo from "./components/trials/MountApo";
 import Samal from "./components/trials/Samal";
 import Dahican from "./components/trials/Dahican";
@@ -59,7 +59,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Destination" element={<Destination />} />
           <Route path="/TravelInspiration" element={<TravelIsnpiration />} />
-          <Route path="/TravelInfo" element={<TravelInfo />} />
           <Route path="/News" element={<News />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/Map" element={<Map />} />
@@ -84,6 +83,7 @@ function App() {
           <Route path="/Canigao" element={<Canigao />} />
           <Route path="/Bantayan" element={<Bantayan />} />
           <Route path="/Kawasan" element={<Kawasan />} />
+          <Route path="/Mayon" element={<Mayon />} />
           <Route path="/ApoIsland" element={<ApoIsland />} />
           <Route path="/Siargao" element={<Siargao />} />
           <Route path="/Camiguin" element={<Camiguin />} />

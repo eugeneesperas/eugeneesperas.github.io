@@ -113,6 +113,14 @@ button[type="submit"]:hover {
     margin-top: -50px;
     z-index: -1;
   }
+
+  .cardsix {
+    margin-top: 20%;
+  }
+
+  .cards {
+    margin-top: 15%;
+  }
 }
 
 @media screen and (max-width: 768px) {
