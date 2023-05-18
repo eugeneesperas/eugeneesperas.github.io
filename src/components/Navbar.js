@@ -71,6 +71,20 @@ function Navbar() {
                 Map
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/About" className="nav-links" onClick={closeMobileMenu}>
+                About us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/Contact"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Contact us
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

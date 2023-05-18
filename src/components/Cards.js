@@ -16,58 +16,38 @@ function Cards() {
               <CardItem
                 src="/images/l1.jpg"
                 text="Banaue Rice Terraces"
-                path="/Baguio"
+                path="/Banaue"
               />
-              <CardItem
-                src="/images/l10.jpg"
-                text="Sagada"
-                path="/Destination"
-              />
-              <CardItem
-                src="/images/l2.jpg"
-                text="Mount Pulag"
-                path="/Destination"
-              />
+              <CardItem src="/images/l10.jpg" text="Sagada" path="/Sagada" />
+              <CardItem src="/images/l2.jpg" text="Mount Pulag" path="/Pulag" />
               <CardItem
                 src="/images/l3.jpg"
                 text="Baguio City"
-                path="/Destination"
+                path="/Baguio"
               />
             </ul>
 
             <ul className="cards__items">
-              <CardItem
-                src="/images/l9.jpg"
-                text="Batanes"
-                path="/Destination"
-              />
-              <CardItem
-                src="/images/l4.jpg"
-                text="Vigan City"
-                path="/Destination"
-              />
+              <CardItem src="/images/l9.jpg" text="Batanes" path="/Batanes" />
+              <CardItem src="/images/l4.jpg" text="Vigan City" path="/Vigan" />
             </ul>
 
             <ul className="cards__items">
-              <CardItem
-                src="/images/l8.jpg"
-                text="Pagudpud"
-                path="/Destination"
-              />
+              <CardItem src="/images/l8.jpg" text="Pagudpud" path="/Pagudpud" />
               <CardItem
                 src="/images/l5.jpg"
                 text="Mayon Volcano"
-                path="/Destination"
+                path="/Mayon"
               />
               <CardItem
                 src="/images/l6.jpg"
                 text="Anawangin Cove"
-                path="/Destination"
+                path="/Anawangin"
               />
               <CardItem
                 src="/images/l7.jpg"
                 text="Coron Island"
-                path="/Destination"
+                path="/Coron"
               />
             </ul>
           </div>
@@ -82,25 +62,25 @@ function Cards() {
               <CardItem
                 src="/images/b1.jpg"
                 text="Boracay Island"
-                path="/Destination"
+                path="/Boracay"
               />
 
               <CardItem
                 src="/images/b2.jpg"
                 text="Chocolate Hills"
-                path="/Destination"
+                path="/Chocolate"
               />
 
               <CardItem
                 src="/images/b3.jpg"
                 text="Sumilon Island"
-                path="/Destination"
+                path="/Sumilon"
               />
 
               <CardItem
                 src="/images/b4.jpg"
                 text="Kalanggaman Island"
-                path="/Destination"
+                path="/Kalanggaman"
               />
             </ul>
 
@@ -108,25 +88,25 @@ function Cards() {
               <CardItem
                 src="/images/b5.jpg"
                 text="Osmeña Peak"
-                path="/Destination"
+                path="/Osmena"
               />
 
               <CardItem
-                src="/images/b6.jpg"
+                src="/images/b6.JPG"
                 text="Sohoton Cave"
-                path="/Destination"
+                path="/Sohoton"
               />
 
               <CardItem
                 src="/images/b7.jpg"
                 text="Canigao Island"
-                path="/Destination"
+                path="/Canigao"
               />
 
               <CardItem
                 src="/images/b8.jpg"
                 text="Bantayan Island"
-                path="/Destination"
+                path="/Bantayan"
               />
             </ul>
 
@@ -134,14 +114,10 @@ function Cards() {
               <CardItem
                 src="/images/kawasan.jpg"
                 text="Kawasan Falls"
-                path="/Destination"
+                path="/Kawasan"
               />
 
-              <CardItem
-                src="/images/b10.jpg"
-                text="Apo Island"
-                path="/Destination"
-              />
+              <CardItem src="/images/b10.jpg" text="Apo Island" path="/Apo" />
             </ul>
           </div>
         </div>
@@ -155,13 +131,13 @@ function Cards() {
               <CardItem
                 src="/images/m1.jpg"
                 text="Siargao Island"
-                path="/Destination"
+                path="/Siargao"
               />
 
               <CardItem
                 src="/images/m2.jpg"
                 text="Camiguin Island"
-                path="/Destination"
+                path="/Camiguin"
               />
             </ul>
 
@@ -169,25 +145,25 @@ function Cards() {
               <CardItem
                 src="/images/m3.jpg"
                 text="Enchanted River"
-                path="/Destination"
+                path="/Enchanted"
               />
 
               <CardItem
                 src="/images/m4.jpg"
                 text="Tinuy-an Falls"
-                path="/Destination"
+                path="/Tinuy"
               />
 
               <CardItem
                 src="/images/m5.jpg"
                 text="Mount Apo"
-                path="/Destination"
+                path="/MountApo"
               />
 
               <CardItem
                 src="/images/m6.jpg"
                 text="Samal Island"
-                path="/Destination"
+                path="/Samal"
               />
             </ul>
 
@@ -195,26 +171,22 @@ function Cards() {
               <CardItem
                 src="/images/m7.jpg"
                 text="Dahican Beach"
-                path="/Destination"
+                path="/Dahican"
               />
 
               <CardItem
                 src="/images/m8.jpg"
                 text="Asik-Asik Falls"
-                path="/Destination"
+                path="/Asik"
               />
 
               <CardItem
                 src="/images/m9.jpg"
                 text="Britania Islands"
-                path="/Destination"
+                path="/Britania"
               />
 
-              <CardItem
-                src="/images/m10.jpg"
-                text="Lake Sebu"
-                path="/Destination"
-              />
+              <CardItem src="/images/m10.jpg" text="Lake Sebu" path="/Lake" />
             </ul>
           </div>
         </div>

@@ -275,7 +275,7 @@ function PhTrivia() {
 
   return (
     <div className="trivia-container">
-      <h1>Trivias about Philippines</h1>
+      <h1>Click for trivias about Philippines!</h1>
       <button className="trivia-btn" onClick={handleButtonClick}>
         Did you know?
       </button>

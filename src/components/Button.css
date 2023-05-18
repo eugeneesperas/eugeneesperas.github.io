@@ -17,10 +17,10 @@
 }
 
 .btn--outline {
-  background-color: transparent;
+  background-color: rgb(62, 80, 238);
   color: #fff;
   padding: 8px 20px;
-  border: 1px solid var(--primary);
+  border-radius: 15px;
   transition: all 0.3s ease-out;
 }
 

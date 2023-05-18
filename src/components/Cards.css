@@ -1,6 +1,12 @@
 /* div {
   border: 1px solid black;
 } */
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
 
 .cards {
   background: #fce5ae;
@@ -39,7 +45,6 @@ h1 {
 }
 
 .cards__items {
-  padding: 10px;
   margin-bottom: 10px;
 }
 
@@ -126,14 +131,12 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .cards__item {
-    margin-bottom: 2rem;
+@media only screen and (max-width: 900px) {
+  ul {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 15px;
   }
 }

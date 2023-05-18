@@ -14,28 +14,33 @@ function Footer() {
             </Link>
           </div>
           <div className="footer-link-items">
-            <Link to="/">
+            <Link to="/Destination">
               <h3>Destination</h3>
             </Link>
           </div>
           <div className="footer-link-items">
-            <Link to="/">
+            <Link to="/TravelInspiration">
               <h3>Travel Isnpiration</h3>
             </Link>
           </div>
           <div className="footer-link-items">
-            <Link to="/">
+            <Link to="/TravelInfo">
               <h3>Travel Info</h3>
             </Link>
           </div>
           <div className="footer-link-items">
-            <Link to="/">
+            <Link to="/Map">
               <h3>Map</h3>
             </Link>
           </div>
           <div className="footer-link-items">
-            <Link to="/">
+            <Link to="/About">
               <h3>About us</h3>
+            </Link>
+          </div>
+          <div className="footer-link-items">
+            <Link to="/Contact">
+              <h3>Contact us</h3>
             </Link>
           </div>
         </div>

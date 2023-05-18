@@ -255,8 +255,9 @@ function MySearchBar() {
         <Form onSubmit={handleSearchSubmit} className="mb-3">
           <InputGroup>
             <FormControl
+              className="text-primary"
               type="text"
-              placeholder="Search by City Name"
+              placeholder="Search by City"
               value={searchTerm}
               onChange={handleSearchChange}
             />
@@ -267,9 +268,11 @@ function MySearchBar() {
         </Form>
       </Container>
 
-      <Container>
+      <Container className="errMsg1">
         {error ? (
-          <div>No Destination Found, Try again.</div>
+          <div className="errMsg text-danger">
+            No Destination Found, Try again.
+          </div>
         ) : (
           <Row xs={1} md={2} lg={2} className="g-4">
             {filteredCards.map((card, index) => (

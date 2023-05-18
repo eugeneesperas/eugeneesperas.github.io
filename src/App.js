@@ -11,6 +11,8 @@ import TravelInfo from "./components/pages/TravelInfo";
 import News from "./components/pages/News";
 import Events from "./components/pages/Events";
 import Map from "./components/pages/Map";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import Banaue from "./components/trials/Banaue";
 import Sagada from "./components/trials/Sagada";
@@ -61,6 +63,9 @@ function App() {
           <Route path="/News" element={<News />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/Map" element={<Map />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+
           <Route path="/Banaue" element={<Banaue />} />
           <Route path="/Sagada" element={<Sagada />} />
           <Route path="/Pulag" element={<Pulag />} />

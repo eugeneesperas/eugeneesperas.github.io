@@ -1,63 +1,8 @@
-.EventsContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 200px;
-  flex-wrap: nowrap;
-  background-color: #fce5ae;
-  margin-top: -10px;
-}
-.h1-EventsContainer {
-  background-color: #f8dc9b;
-}
-
-.cards-events {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
-.group-events {
-  border: none;
-}
-
-.text-events {
-  display: flex;
-  text-align: center;
-  font-size: 1.4em;
-  margin: auto;
-  padding: 0 15px 30px;
-}
-
-.title-events {
-  font-size: 2em;
-}
-
-/* @media screen and (max-width: 1400px) {
-  .text-events {
-    font-size: 1.3em;
-  }
-
-  .text-events {
-    font-size: 1.2em;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .text-events {
-    font-size: 1.2em;
-  }
-  .text-events {
-    font-size: 1.1em;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .text-events {
-    font-size: 1.1em;
-  }
-  .text-events {
-    font-size: 1em;
-  }
+/* * {
+  outline: 1px dotted;
 } */
+
+.CityImg {
+  max-height: 300px;
+  object-fit: cover;
+}

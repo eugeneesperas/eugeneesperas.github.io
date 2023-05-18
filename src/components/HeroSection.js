@@ -3,27 +3,31 @@ import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
 import Cards from "./Cards";
-import MySearchBar from "./trials/MySearchBar";
 
 function HeroSection() {
   return (
     <>
       <div className="hero-container">
-        <img className="hero-image" src="./images/13.jpg" alt="hero-image" />
-        <h1 className="h1-1">Discover paradise</h1>
-        <h1 className="h1-2">in the Philippines</h1>
+        <video loop muted autoPlay className="hero-video">
+          <source src="/images/Homepage Video.mp4" type="video/mp4" />
+        </video>
+
+        <h1 className="h1-1">
+          Discover <span className="dispnone">paradise</span>
+        </h1>
+        <h1 className="h1-2">
+          <span className="dispnone">in the</span> Philippines
+        </h1>
         <div className="hero-btns">
           <Button
             className="btns"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
           >
-            LETS GO
+            EXPLORE NOW!
           </Button>
         </div>
       </div>
-      <MySearchBar />
-      <Cards />
     </>
   );
 }

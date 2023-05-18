@@ -33,9 +33,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   padding-top: 50px;
   padding-bottom: 50px;
+  border-radius: 15px;
 }
 
 .close-btn {
@@ -44,6 +45,7 @@
   color: #fff;
   width: auto;
   padding: 10px;
+  border-radius: 15px;
 }
 
 .close-btn:hover {
@@ -62,6 +64,7 @@
   border: none;
   font-size: 1.5em;
   border-radius: 45px;
+  box-shadow: 1px 3px 9px black;
 }
 
 .trivia-btn:hover {
@@ -72,4 +75,28 @@
   border: none;
   font-size: 1.5em;
   border-radius: 45px;
+}
+
+@media only screen and (max-width: 700px) {
+  .trivia-pop-up h2 {
+    font-size: 30px;
+  }
+
+  .trivia-pop-up p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .trivia-pop-up h2 {
+    font-size: 20px;
+  }
+
+  .trivia-pop-up p {
+    font-size: 10px;
+  }
+
+  .close-btn {
+    width: 60px;
+  }
 }
