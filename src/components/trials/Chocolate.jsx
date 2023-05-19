@@ -12,7 +12,7 @@ function Chocolate() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/chocolate-hills.jpg"
+                src="/visayas/chocolate.png"
                 alt="Chocolate Hills Image"
               />
             </Col>
@@ -51,7 +51,7 @@ function Chocolate() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/chocolate-hills-panorama.jpg"
+                src="/visayas/chocolate.png"
                 className="img-fluid"
                 alt="Chocolate Hills Panorama"
               />
@@ -64,7 +64,7 @@ function Chocolate() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/chocolate-hills-view.jpg"
+                src="/visayas/chocolate.png"
                 className="img-fluid"
                 alt="Chocolate Hills View"
               />
@@ -90,9 +90,9 @@ function Chocolate() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/chocolate-hills-museum.jpg"
+                    src="/visayas/chocolate.png"
                     className="img-fluid"
-                    alt="Chocolate                   Hills Museum"
+                    alt="Chocolate Hills Museum"
                   />
                 </Col>
               </Row>
@@ -105,7 +105,7 @@ function Chocolate() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/images/chocolate-hills-carousel-1.jpg"
+                src="/visayas/chocolate.png"
                 alt="Chocolate Hills Carousel 1"
               />
             </Col>
@@ -127,21 +127,21 @@ function Chocolate() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/chocolate-hills-carousel-2.jpg"
+                src="/visayas/chocolate.png"
                 alt="Chocolate Hills Carousel 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/chocolate-hills-carousel-3.jpg"
+                src="/visayas/chocolate.png"
                 alt="Chocolate Hills Carousel 3"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/chocolate-hills-carousel-4.jpg"
+                src="/visayas/chocolate.png"
                 alt="Chocolate Hills Carousel 4"
               />
             </Carousel.Item>

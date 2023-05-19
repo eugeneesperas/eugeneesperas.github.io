@@ -12,7 +12,7 @@ function Canigao() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/canigao.jpg"
+                src="/visayas/canigao.png"
                 alt="Canigao Island Image"
               />
             </Col>
@@ -54,7 +54,7 @@ function Canigao() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/canigao-beach.jpg"
+                src="/visayas/canigao.png"
                 className="img-fluid"
                 alt="Canigao Island Beach"
               />
@@ -67,7 +67,7 @@ function Canigao() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/canigao-snorkeling.jpg"
+                src="/visayas/canigao.png"
                 className="img-fluid"
                 alt="Canigao Island Snorkeling"
               />
@@ -93,7 +93,7 @@ function Canigao() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/canigao-culture.jpg"
+                    src="/visayas/canigao.png"
                     className="img-fluid"
                     alt="Canigao Island Culture"
                   />
@@ -108,7 +108,7 @@ function Canigao() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/images/canigao-landscape.jpg"
+                src="/visayas/canigao.png"
                 alt="Canigao Island Landscape"
               />
             </Col>
@@ -131,21 +131,21 @@ function Canigao() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/canigao-carousel-1.jpg"
+                src="/visayas/canigao.png"
                 alt="Canigao Island Carousel 1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/canigao-carousel-2.jpg"
+                src="/visayas/canigao.png"
                 alt="Canigao Island Carousel 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/canigao-carousel-3.jpg"
+                src="/visayas/canigao.png"
                 alt="Canigao Island Carousel 3"
               />
             </Carousel.Item>

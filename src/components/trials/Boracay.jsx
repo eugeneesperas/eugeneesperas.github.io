@@ -12,7 +12,7 @@ function Boracay() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/boracay.jpg"
+                src="/visayas/boracay.png"
                 alt="Boracay Image"
               />
             </Col>
@@ -51,7 +51,7 @@ function Boracay() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/boracay-nightlife.jpg"
+                src="/visayas/sumilon.png"
                 className="img-fluid"
                 alt="Boracay Nightlife"
               />
@@ -64,7 +64,7 @@ function Boracay() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/boracay-adventures.jpg"
+                src="/visayas/kalanggaman.png"
                 className="img-fluid"
                 alt="Boracay Adventures"
               />
@@ -90,7 +90,7 @@ function Boracay() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/boracay-nature.jpg"
+                    src="/visayas/sohoton.png"
                     className="img-fluid"
                     alt="Boracay Nature"
                   />
@@ -105,7 +105,7 @@ function Boracay() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/images/boracay-sunset.jpg"
+                src="/visayas/bantayan.png"
                 alt="Boracay Sunset"
               />
             </Col>
@@ -127,21 +127,21 @@ function Boracay() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/boracay-carousel-1.jpg"
+                src="/visayas/bantayan.png"
                 alt="Boracay Carousel 1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/boracay-carousel-2.jpg"
+                src="/visayas/sohoton.png"
                 alt="Boracay Carousel 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/boracay-carousel-3.jpg"
+                src="/visayas/sumilon.png"
                 alt="Boracay Carousel 3"
               />
             </Carousel.Item>

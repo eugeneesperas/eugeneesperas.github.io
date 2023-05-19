@@ -12,7 +12,7 @@ function ApoIsland() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/apo-island.jpg"
+                src="/visayas/ApoIsland.png"
                 alt="Apo Island Image"
               />
             </Col>
@@ -55,7 +55,7 @@ function ApoIsland() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/apo-island-beach.jpg"
+                src="/visayas/ApoIsland.png"
                 className="img-fluid"
                 alt="Apo Island Beach"
               />
@@ -68,7 +68,7 @@ function ApoIsland() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/apo-island-activities.jpg"
+                src="/visayas/ApoIsland.png"
                 className="img-fluid"
                 alt="Apo Island Activities"
               />
@@ -94,7 +94,7 @@ function ApoIsland() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/apo-island-snorkeling.jpg"
+                    src="/visayas/ApoIsland.png"
                     className="img-fluid"
                     alt="Apo Island Snorkeling"
                   />
@@ -109,21 +109,21 @@ function ApoIsland() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/apo-island-carousel-1.jpg"
+                src="/visayas/ApoIsland.png"
                 alt="Apo Island Carousel 1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/apo-island-carousel-2.jpg"
+                src="/visayas/ApoIsland.png"
                 alt="Apo Island Carousel 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/apo-island-carousel-3.jpg"
+                src="/visayas/ApoIsland.png"
                 alt="Apo Island Carousel 3"
               />
             </Carousel.Item>

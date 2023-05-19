@@ -12,7 +12,7 @@ function Sohoton() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/sohoton.jpg"
+                src="/visayas/Sohoton.png"
                 alt="Sohoton Cove Image"
               />
             </Col>
@@ -53,7 +53,7 @@ function Sohoton() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/sohoton-caving.jpg"
+                src="/visayas/Sohoton.png"
                 className="img-fluid"
                 alt="Sohoton Caving"
               />
@@ -66,7 +66,7 @@ function Sohoton() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/sohoton-jellyfish.jpg"
+                src="/visayas/Sohoton.png"
                 className="img-fluid"
                 alt="Sohoton Jellyfish"
               />
@@ -91,7 +91,7 @@ function Sohoton() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/sohoton-cave.jpg"
+                    src="/visayas/Sohoton.png"
                     className="img-fluid"
                     alt="Sohoton Cave"
                   />
@@ -106,7 +106,7 @@ function Sohoton() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/images/sohoton-boat.jpg"
+                src="/visayas/Sohoton.png"
                 alt="Sohoton Boat"
               />
             </Col>
@@ -128,21 +128,21 @@ function Sohoton() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/sohoton-gallery-1.jpg"
+                src="/visayas/Sohoton.png"
                 alt="Sohoton Gallery 1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/sohoton-gallery-2.jpg"
+                src="/visayas/Sohoton.png"
                 alt="Sohoton Gallery 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/sohoton-gallery-3.jpg"
+                src="/visayas/Sohoton.png"
                 alt="Sohoton Gallery 3"
               />
             </Carousel.Item>

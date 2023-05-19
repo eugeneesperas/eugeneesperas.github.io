@@ -12,7 +12,7 @@ function Osmena() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/osmena-peak.jpg"
+                src="/visayas/osmena.png"
                 alt="Osmena Peak Image"
               />
             </Col>
@@ -53,7 +53,7 @@ function Osmena() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/osmena-peak-trail.jpg"
+                src="/visayas/osmena.png"
                 className="img-fluid"
                 alt="Osmena Peak Trail"
               />
@@ -66,7 +66,7 @@ function Osmena() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/osmena-peak-view.jpg"
+                src="/visayas/osmena.png"
                 className="img-fluid"
                 alt="Osmena Peak View"
               />
@@ -107,21 +107,21 @@ function Osmena() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/osmena-peak-gallery-1.jpg"
+                src="/visayas/osmena.png"
                 alt="Osmena Peak Gallery 1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/osmena-peak-gallery-2.jpg"
+                src="/visayas/osmena.png"
                 alt="Osmena Peak Gallery 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/osmena-peak-gallery-3.jpg"
+                src="/visayas/osmena.png"
                 alt="Osmena Peak Gallery 3"
               />
             </Carousel.Item>

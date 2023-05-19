@@ -12,7 +12,7 @@ function Sumilon() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/sumilon.jpg"
+                src="/visayas/sumilon.png"
                 alt="Sumilon Island Image"
               />
             </Col>
@@ -47,7 +47,7 @@ function Sumilon() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/sumilon-beach.jpg"
+                src="/visayas/sumilon.png"
                 className="img-fluid"
                 alt="Sumilon Beach"
               />
@@ -60,7 +60,7 @@ function Sumilon() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/sumilon-diving.jpg"
+                src="/visayas/sumilon.png"
                 className="img-fluid"
                 alt="Sumilon Diving"
               />
@@ -87,7 +87,7 @@ function Sumilon() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/sumilon-sunset.jpg"
+                    src="/visayas/sumilon.png"
                     className="img-fluid"
                     alt="Sumilon Sunset"
                   />
@@ -102,7 +102,7 @@ function Sumilon() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/images/sumilon-boat.jpg"
+                src="/visayas/sumilon.png"
                 alt="Sumilon Boat"
               />
             </Col>
@@ -125,21 +125,21 @@ function Sumilon() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/sumilon-gallery-1.jpg"
+                src="/visayas/sumilon.png"
                 alt="Sumilon Gallery 1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/sumilon-gallery-2.jpg"
+                src="/visayas/sumilon.png"
                 alt="Sumilon Gallery 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/sumilon-gallery-3.jpg"
+                src="/visayas/sumilon.png"
                 alt="Sumilon Gallery 3"
               />
             </Carousel.Item>

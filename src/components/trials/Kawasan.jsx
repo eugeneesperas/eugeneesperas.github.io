@@ -12,7 +12,7 @@ function Kawasan() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/kawasan-falls.jpg"
+                src="/visayas/kawasan.png"
                 alt="Kawasan Falls Image"
               />
             </Col>
@@ -52,7 +52,7 @@ function Kawasan() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/kawasan-canyoneering.jpg"
+                src="/visayas/kawasan.png"
                 className="img-fluid"
                 alt="Kawasan Canyoneering"
               />
@@ -65,7 +65,7 @@ function Kawasan() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/kawasan-trekking.jpg"
+                src="/visayas/kawasan.png"
                 className="img-fluid"
                 alt="Kawasan Trekking"
               />
@@ -91,7 +91,7 @@ function Kawasan() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/kawasan                .jpg"
+                    src="/visayas/kawasan.png"
                     className="img-fluid"
                     alt="Kawasan Moalboal"
                   />
@@ -106,7 +106,7 @@ function Kawasan() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/images/kawasan-tourists.jpg"
+                src="/visayas/kawasan.png"
                 alt="Kawasan Tourists"
               />
             </Col>
@@ -139,21 +139,21 @@ function Kawasan() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/kawasan-carousel-1.jpg"
+                src="/visayas/kawasan.png"
                 alt="Kawasan Carousel 1"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/kawasan-carousel-2.jpg"
+                src="/visayas/kawasan.png"
                 alt="Kawasan Carousel 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/kawasan-carousel-3.jpg"
+                src="/visayas/kawasan.png"
                 alt="Kawasan Carousel 3"
               />
             </Carousel.Item>

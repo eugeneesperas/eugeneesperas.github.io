@@ -117,7 +117,11 @@ function Cards() {
                 path="/Kawasan"
               />
 
-              <CardItem src="/images/b10.jpg" text="Apo Island" path="/Apo" />
+              <CardItem
+                src="/images/b10.jpg"
+                text="Apo Island"
+                path="/ApoIsland"
+              />
             </ul>
           </div>
         </div>

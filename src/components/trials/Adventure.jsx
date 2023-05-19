@@ -1,163 +1,91 @@
 import React from "react";
-import { Card, CardGroup, Row, Col } from "react-bootstrap";
-import "./City.css";
 
-function Adventure() {
+const Adventure = () => {
+  const adventureDestinations = [
+    {
+      name: "Palawan",
+      image: "/six/palawan.jpg",
+      description:
+        "Palawan is famous for its stunning landscapes, pristine beaches, and the underground river in Puerto Princesa.",
+    },
+    {
+      name: "Siargao",
+      image: "/six/siargao.jpg",
+      description:
+        "Siargao is known as the surfing capital of the Philippines, offering world-class waves and a laid-back island vibe.",
+    },
+    {
+      name: "Sagada",
+      image: "/six/sagada.jpg",
+      description:
+        "Sagada is a mountain town known for its breathtaking hikes, hanging coffins, and the stunning sunrise at Kiltepan Peak.",
+    },
+    {
+      name: "Camarines Sur",
+      image: "/six/camarines_sur.jpg",
+      description:
+        'Camarines Sur is home to the Caramoan Islands, a paradise for beach lovers and the filming location of "Survivor" TV series.',
+    },
+    {
+      name: "Banaue",
+      image: "/six/banaue.jpg",
+      description:
+        "Banaue is famous for its ancient rice terraces, a UNESCO World Heritage Site and an awe-inspiring feat of engineering.",
+    },
+    {
+      name: "Batanes",
+      image: "/six/batanes.jpg",
+      description:
+        "Batanes is a group of remote islands offering breathtaking landscapes, rolling hills, and picturesque lighthouses.",
+    },
+    {
+      name: "Cebu",
+      image: "/six/cebu1.jpg",
+      description:
+        "Cebu offers a wide range of adventure activities such as canyoneering in Kawasan Falls and swimming with whale sharks in Oslob.",
+    },
+    {
+      name: "Davao",
+      image: "/six/davao1.jpg",
+      description:
+        "Davao is the gateway to Mount Apo, the highest peak in the Philippines, offering challenging hikes and stunning vistas.",
+    },
+    {
+      name: "Camiguin",
+      image: "/six/camiguin.jpg",
+      description:
+        'Camiguin is known as the "Island Born of Fire" with its volcanoes, hot springs, waterfalls, and natural wonders.',
+    },
+    {
+      name: "Anilao",
+      image: "/six/anilao.jpg",
+      description:
+        "Anilao is a paradise for divers and snorkelers, with vibrant coral reefs and the opportunity to spot marine life like sea turtles.",
+    },
+  ];
+
   return (
-    <>
-      <div className="h1-EventsContainer">
-        <h1>Adventurist? Try this Destinations in the Philippines</h1>
+    <div className="container">
+      <h1>Philippines Best Adventure Destinations</h1>
+      <div className="row">
+        {adventureDestinations.map((destination, index) => (
+          <div className="col-md-6" key={index}>
+            <div className="card mb-4">
+              <img
+                src={destination.image}
+                className="card-img-top"
+                alt={destination.name}
+              />
+              <div className="card-body">
+                <h5 className="card-title">{destination.name}</h5>
+                <p className="card-text">{destination.description}</p>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Baguio</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-          </Row>
-        </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Baguio</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-          </Row>
-        </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Baguio</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-          </Row>
-        </div>
-      </div>
-      <div className="EventsContainer">
-        <div>
-          <Row xs={1} md={1} lg={2} className="g-3">
-            <Col className="cards-events">
-              <CardGroup className="group-events">
-                <Card>
-                  <Card.Body>
-                    <Card.Title>
-                      <h1 className="title-events">Baguio</h1>
-                    </Card.Title>
-                    <Card.Text className="text-events">
-                      Palawan is a province located in the western part of the
-                      Philippines. It is known for its stunning natural beauty,
-                      pristine beaches, crystal-clear waters, and abundant
-                      marine life. Here's some information about Palawan: El
-                      Nido: El Nido is one of the most popular destinations in
-                      Palawan. It features breathtaking limestone cliffs, hidden
-                      lagoons, and numerous islands with beautiful beaches.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col>
-              <CardGroup>
-                <Card className="cards-events">
-                  <Card.Img
-                    classNmae="img-fluid"
-                    variant="top"
-                    src="/images/3.jpg"
-                  />
-                </Card>
-              </CardGroup>
-            </Col>
-          </Row>
-        </div>
-      </div>
-    </>
+    </div>
   );
-}
+};
 
 export default Adventure;

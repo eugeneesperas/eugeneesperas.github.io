@@ -12,7 +12,7 @@ function Kalanggaman() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/kalanggaman.jpg"
+                src="/visayas/kalanggaman.png"
                 alt="Kalanggaman Image"
               />
             </Col>
@@ -53,7 +53,7 @@ function Kalanggaman() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/kalanggaman-snorkeling.jpg"
+                src="/visayas/kalanggaman.png"
                 className="img-fluid"
                 alt="Kalanggaman Snorkeling"
               />
@@ -66,7 +66,7 @@ function Kalanggaman() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/kalanggaman-activities.jpg"
+                src="/visayas/kalanggaman.png"
                 className="img-fluid"
                 alt="Kalanggaman Activities"
               />
@@ -93,7 +93,7 @@ function Kalanggaman() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/kalanggaman-viewpoint.jpg"
+                    src="/visayas/kalanggaman.png"
                     className="img-fluid"
                     alt="Kalanggaman Viewpoint"
                   />
@@ -108,7 +108,7 @@ function Kalanggaman() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/images/kalanggaman-gallery-1.jpg"
+                src="/visayas/kalanggaman.png"
                 alt="Kalanggaman Gallery 1"
               />
             </Col>
@@ -130,21 +130,21 @@ function Kalanggaman() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/kalanggaman-gallery-2.jpg"
+                src="/visayas/kalanggaman.png"
                 alt="Kalanggaman Gallery 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/kalanggaman-gallery-3.jpg"
+                src="/visayas/kalanggaman.png"
                 alt="Kalanggaman Gallery 3"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/kalanggaman-gallery-4.jpg"
+                src="/visayas/kalanggaman.png"
                 alt="Kalanggaman Gallery 4"
               />
             </Carousel.Item>

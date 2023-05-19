@@ -12,7 +12,7 @@ function Bantayan() {
             <Col>
               <Card.Img
                 className="CityImg img-fluid"
-                src="/images/bantayan.jpg"
+                src="/visayas/bantayan.png"
                 alt="Bantayan Island Image"
               />
             </Col>
@@ -53,7 +53,7 @@ function Bantayan() {
             </Col>
             <Col md={6} className="d-flex justify-content-end">
               <img
-                src="/images/bantayan-beach.jpg"
+                src="/visayas/bantayan.png"
                 className="img-fluid"
                 alt="Bantayan Island Beach"
               />
@@ -66,7 +66,7 @@ function Bantayan() {
           <Row>
             <Col md={6}>
               <img
-                src="/images/bantayan-cuisine.jpg"
+                src="/visayas/bantayan.png"
                 className="img-fluid"
                 alt="Bantayan Island Cuisine"
               />
@@ -95,7 +95,7 @@ function Bantayan() {
                 </Col>
                 <Col md={6}>
                   <img
-                    src="/images/bantayan-culture.jpg"
+                    src="/visayas/bantayan.png"
                     className="img-fluid"
                     alt="Bantayan Island Culture"
                   />
@@ -110,7 +110,7 @@ function Bantayan() {
             <Col md={6}>
               <img
                 className="img-fluid"
-                src="/images/bantayan-carousel-1.jpg"
+                src="/visayas/bantayan.png"
                 alt="Bantayan Island Carousel 1"
               />
             </Col>
@@ -132,21 +132,21 @@ function Bantayan() {
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/bantayan-carousel-2.jpg"
+                src="/visayas/bantayan.png"
                 alt="Bantayan Island Carousel 2"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/bantayan-carousel-3.jpg"
+                src="/visayas/bantayan.png"
                 alt="Bantayan Island Carousel 3"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 img-fluid"
-                src="/images/bantayan-carousel-4.jpg"
+                src="/visayas/bantayan.png"
                 alt="Bantayan Island Carousel 4"
               />
             </Carousel.Item>
