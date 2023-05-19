@@ -92,19 +92,19 @@ function About() {
         <h1>Our Credentials</h1>
         <div className="container-md">
           <Row>
-            <img className="logoimg" src="./images/logo 1.png" />
+            <img className="logoimg" src="/images/logo_1.png" />
           </Row>
           <p></p>
           <Row>
-            <img src="./images/logo 3.png" className="logoimg" />
+            <img src="/images/logo_3.png" className="logoimg" />
           </Row>
           <p></p>
           <Row>
-            <img src="./images/logo 4.png" className="logoimg" />
+            <img src="/images/logo_4.png" className="logoimg" />
           </Row>
           <p></p>
           <Row>
-            <img src="./images/logo 5.png" className="logoimg" />
+            <img src="/images/logo_5.png" className="logoimg" />
           </Row>
         </div>
         <p></p>
